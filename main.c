@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define L 4
+#define L 3
 
 void buildMatrix(int** matrix){
     int i, j;
@@ -41,7 +41,7 @@ int main()
         matrixC [i] = (int *) malloc (L * sizeof (int));
     }
 
-    /*
+    
     printf("-----------------Matrix A --------------------\n");
     
     buildMatrix(matrixA);
@@ -56,7 +56,7 @@ int main()
     
     buildMatrix(matrixC);
     printMatrix(matrixC);
-    */
+    
     
     return 0;
 }
